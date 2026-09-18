@@ -34,6 +34,8 @@ Testing feedback welcome. Worth trying:
 
 Please report your RoboFont version and macOS version with any bug.
 
+This project was vibe coded with the help of AI.
+
 ## License
 
 MIT
