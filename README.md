@@ -1,6 +1,6 @@
 # Blobbington
 
-A pen for the RoboFont glyph editor. Drag to draw with an oval nib: the mark is exactly where the nib travelled, like ink on paper, and the outline is fitted with clean, editable curves. Click once to stamp a single dab.
+A brush tool for the RoboFont glyph editor. Drag to draw with an oval nib: the mark is exactly where the nib travelled, like ink on paper, and the outline is fitted with clean, editable curves. Click once to stamp a single dab.
 
 ## Install
 
