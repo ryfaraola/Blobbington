@@ -1,6 +1,6 @@
 # Blobbington
 
-A blob brush for the RoboFont glyph editor. Drag to paint with an oval brush. Strokes commit as clean, overlap-free outlines with smooth points. Click once to stamp a single dab.
+A pen for the RoboFont glyph editor. Drag to draw with an oval nib: the mark is exactly where the nib travelled, like ink on paper, and the outline is fitted with clean, editable curves. Click once to stamp a single dab.
 
 ## Install
 
@@ -13,28 +13,27 @@ Blobbington appears in the glyph editor toolbar.
 
 ## Controls
 
-The panel appears when you select the tool and closes when you switch away. Settings persist between sessions.
+The panel opens when you select the tool and closes when you switch away. Settings are remembered between sessions.
 
-- **Fidelity** — Accurate keeps more of your hand movement, Smooth fits fewer points. Sharp corners are preserved at any setting.
-- **Size** — brush diameter in font units
-- **Angle** — rotation of the brush oval
-- **Roundness** — 100% is a circle, lower values flatten the oval
+- **Fidelity**: how many points the finished outline uses. Accurate keeps more detail, Smooth uses fewer points. Neither moves your line.
+- **Size**: length of the nib in font units.
+- **Angle**: rotation of the nib.
+- **Roundness**: 100 is a round marker, 1 is a flat broad nib.
+- **Stabilizer**: the nib trails the cursor on a string, smoothing out wobble. 0 is off.
 
-Type a value into any field or drag the slider.
+Type a value into any field or drag its slider. Hold Shift to lock a stroke to 45 and 90 degrees. Strokes stay separate; use Remove Overlap to merge them.
 
 ## Beta notes
 
-Testing feedback welcome. Worth trying:
+Feedback welcome. Worth trying:
 
-- tight hairpin turns and figure-eights
-- an angled flat brush (low roundness, angle around 40) drawn in every direction
-- very large and very small brush sizes
-- typing values into the fields
-- switching tools back and forth
+- straight strokes and curves with a flat nib (roundness 1)
+- tight hairpins and figure-eights
+- the stabilizer at a few settings
+- very large and very small sizes
+- long strokes, to check speed
 
-Please report your RoboFont version and macOS version with any bug.
-
-This project was vibe coded with the help of AI.
+Please include your RoboFont and macOS versions with any bug report. If a stroke fails, the Output Window prints an error message; copying that into your report helps a lot.
 
 ## License
 
